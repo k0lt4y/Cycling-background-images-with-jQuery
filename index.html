@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cycling a background image with jQuery</title>
+
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="./css/slideshow.css" />
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="text">
+	<h1>Background image cycler</h1>
+	<p>A simple <strong>responsive</strong> jQuery script rotates the images with a z-index behind the page content to give the appearance of a background image.</p>
+</div>
+
+<div id="background_cycler" >
+	<script type="text/javascript">
+		$('#background_cycler').hide(); //hide the background while the images load, ready to fade in later
+	</script>
+
+	<div class="img active" style="background:url('./img/01.jpg') top left no-repeat; background-size:cover;"></div>
+	<div class="img" style="background:url('./img/02.jpg') top left no-repeat; background-size:cover;"></div>
+	<div class="img" style="background:url('./img/03.jpg') top left no-repeat; background-size:cover;"></div>
+	<div class="img" style="background:url('./img/04.jpg') top left no-repeat; background-size:cover;"></div>
+</div>
+
+<script src="./js/slideshow.js" type="text/javascript"></script>
+
+</body>
+</html>
