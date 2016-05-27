@@ -1,3 +1,3 @@
 # Cycling-a-background-image-with-jQuery
 
-Example: http://iranycegled.hu/
+Example: <a href="http://iranycegled.hu" target="_blank">http://iranycegled.hu/</a>
